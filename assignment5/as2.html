@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Wonderla</title><!--article tag defines an independent self contained data-->
+<style>
+	body{
+	display:grid;
+	grid-template-areas:"header header header" "nav article ads" "footer footer footer";
+	grid-template-rows:80px 1fr 90px;
+	grid-template-columns:15% 1fr 20%;
+	grid-row-gap:10px;
+	grid-column-gap:10px;
+	height:100vh;
+	margin:0;
+	
+
+	}
+	header,nav,footer,article,div{
+	padding:0.3em;
+
+background: url(10.jpg) no-repeat;
+  background-size: cover;
+  background-position:cover;
+  
+	}
+	#pageheader{
+	grid-area:header;
+	text-align:center;
+	font-size:35px;
+	}
+	#pagefooter{
+	grid-area:footer;
+	}
+	#main{
+	grid-area:article;
+	}
+	#navig{
+	grid-area:nav;
+	}
+	#sideAds{
+	grid-area:ads;}
+	.one{
+	word-spacing:350px;}
+	p{
+	color:#0bc2c2;}
+	
+</style>
+</head>
+<body>
+	<header id="pageheader">
+	Wonderla
+	</header>
+	<article id="main">
+	<h2>About us :</h2>	
+<p>Wonderla Holidays Limited operates three largest amusement parks in Kochi, Bangalore and Hyderabad; and the Wonderla resort in Bangalore under the brand name Wonderla.</p>
+
+<h3>Wonderla Amusement Park Bangalore :</h3>
+<p>Wonderla - Bangalore India's favourite amusement park is located on Bangalore - Mysore Road, just 28 kms from Bangalore city. Spread across 82 acres of landscaped garden, Wonderla Bangalore has 61 thrill packed rides offering a monster dose of entertainment and fun for all age groups. Wonderla - Bangalore has thrilled over 7.5 million people visitors since our opening in 2005.
+
+In 2012, Wonderla Bangalore added a resort inside the amusement park - making it the first amusement park in India to have a resort built right inside it.</p>
+<h3>Wonderla Amusement Park Kochi:</h3>
+
+<p>Wonderla Amusement Park in Kochi, previously known as Veega Land, is located 15 kms from Kochi city and is home to 50+ amusement rides. Wonderla Kochi is the first park in India to get ISO14001 certificate for eco-friendliness and OHSAS 18001 certificate for safety.</p>
+<h3>Wonderla Amusement Park Hyderabad :</h3>
+<p>Wonderla has now marked its presence in Hyderabad to unfold an all-new chapter of thrill. Brace yourself, Wonderla Amusement Park, Hyderabad will take you on a ride you have never experienced before. </p>
+	</article>
+	<nav id="navig">
+	<h3>Click on the links below for further details : </h3>
+	<P><u>Rules and Regulations</u></p>
+	<p><u>Safety and Hygiene</u></p>
+	<p><U>Gallery</u></p>
+	<p><u>News</u></P>
+	<p><u>Feedback</u></p>
+	<p><U>CSR initiatives</u></p>
+	<p><u>Travelling by bus</U></p>
+	<P><u>FAQ</U></P>
+	<P><u>Cancellation and Reschedule Policy</u></p>
+	<P><u>Cancel booking</u></p>
+	</nav>
+	<div id="sideAds">
+	<h2>Offers!!</h2>
+	<img src="one.png" width="250px" height="250px" alt="busy">
+	<br>
+	<img src="two.png" width="250px" height="250px" alt="busy">
+	</div>
+	<footer id="pagefooter">
+	
+	<h3 style="text-align:center">Contact us:</h3>
+	<div class="one">
+	+91817418751(Kochi)
+	+91818750178(Bangalore)
+	+91494819758(Hyderabad)
+	</footer>
+	
+	
+</body>
+</html>
+

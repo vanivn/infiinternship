@@ -1,0 +1,33 @@
+<!-- Jquery is a javascript library which works as " write less adn do more" .THe purporse of jquery is to make it much easier to use javacript in ur web page.
+Jquery also simplifies lot of complicated things from javascript like ajax calls  and dom maninpulations.
+Syntax:
+	$(document).ready(function(){
+	//jquery method goes here
+	});-->
+	
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>First</title><!--Jquery should always write in a script tag under header.
+$ : defines jquery.
+$(document).ready : helps to load a complete webpage successfully.
+$("selector") : is used to find the html elements in a web page. 
+click,hide : predefined functions in jquery.
+-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$("button").click(function(){
+	$("p").hide();
+	});
+	});
+	</script>
+</head>
+<body>
+	<p>Helllllo infi </p>
+	<button type="button" name="button"><tt>Click here</tt></button>
+</body>
+</html>		

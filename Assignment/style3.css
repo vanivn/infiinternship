@@ -1,0 +1,30 @@
+body{
+	text-align:center;
+	font-size:45px;
+}
+#div1{
+	background-color:black;
+	color:violet;
+	width:500px;
+	height:100px;
+	size:300px;
+	text-align:center;
+}
+#div2{background-color:yellow;
+	color:#ff00aa;
+	width:500px;
+	height:100px;
+	
+}
+#div3{
+	background-color:cyan;
+	color:rgb(215,5,0);
+	width:500px;
+	height:100px;
+}
+#div4{
+	background-color:tomato;
+	color:rgba(0,0,215,1.5);
+	width:500px;
+	height:100px;
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Grid layout</title><!--article tag defines an independent self contained data-->
+<style>
+	body{
+	display:grid;
+	grid-template-areas:"header header header" "nav article ads" "footer footer footer";
+	grid-template-rows:80px 1fr 70px;
+	grid-template-columns:20% 1fr 15%;
+	grid-row-gap:10px;
+	grid-column-gap:10px;
+	height:100vh;
+	margin:0;
+	}
+	header,nav,footer,article,div{
+	padding:1.2em;
+	background-color:powderblue;
+	}
+	#pageheader{
+	grid-area:header;
+	text-align:center;
+	}
+	#pagefooter{
+	grid-area:footer;
+	}
+	#main{
+	grid-area:article;
+	}
+	#navig{
+	grid-area:nav;
+	}
+	#sideAds{
+	grid-area:ads;}
+</style>
+</head>
+<body>
+	<header id="pageheader">
+		Infidata technologies
+	</header>
+	<article id="main">
+		Article
+	</article>
+	<nav id="navig">Navigation
+	</nav>
+	<div id="sideAds">Advertisements
+	</div>
+	<footer id="pagefooter">Footer</footer>
+	
+</body>
+</html>
+

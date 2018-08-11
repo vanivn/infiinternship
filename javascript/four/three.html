@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<head>
+<title>Javascript Object constructors</title>
+</head>
+<body>
+	<p id="demo"></p>
+	<p id="demo1"></p>
+	<script type="text/javascript">
+	function person(first,last,age){
+	this.firstName=first;
+	this.lastName=last;
+	this.age=age;
+	}
+	var myFather=new person("Vasudevan","P",54);
+	var myMother=new person("Remani","KP",50);
+	document.getElementById('demo').innerHTML="my Father's age is " +myFather.age+ " "+"<br>"+"my Mother's age is " +myMother.age;
+	
+	
+	
+	
+	
+	</script>
+</body>
+</html>	

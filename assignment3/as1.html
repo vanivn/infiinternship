@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Assignment1</title>
+	<style>
+fieldset
+{
+  background-color:rgb(255,228,182);
+  width:500px;
+  }
+  input[type=text]{
+  width:350px;}
+ 
+h1{
+color:yellow;
+}
+input[type=submit]{
+text-align:center;
+color:black;
+background:lightgray;
+
+}
+body{
+text-align:center;
+ background: url(1.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+  legend{
+  border:2px solid yellow;
+ background-color:white;
+  color:orange;}
+  
+form {
+    display: inline-block;
+}
+ 
+
+	</style>
+
+</head>
+<body>
+	
+	<h1><u>Welcome to E-books :</u></h1>
+	<br>
+	<br>
+	<br>
+	<br>
+	<form>
+	
+		<fieldset>
+		<legend>Customer information</legend>
+		Name : 
+		<input type="text" name="first" placeholder="Enter your name">
+		<br>
+		<br>
+		Telephone :
+		<input type="text" name="phone" placeholder="Pattern: 1-234-567-8910">
+		<br>
+		<br>
+		E-mail:
+		<input type="text" name="email" placeholder="Enter your email-address">
+		</fieldset>
+	
+		<br>
+	
+		<fieldset>
+		<legend>Books</legend>
+		Book name :
+		<input type="text" name="name" placeholder="Enter the book name">
+		<br>
+		<br>
+		Quantity (Maximum 5) :
+		<SELECT>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>	
+			<option value="4">4</option>	
+				<option value="5">5</option>
+		</SELECT>
+		
+		
+		</fieldset>
+		<br>
+		
+		<input type="submit" value="Submit">
+		</form>
+</body>
+</html>
